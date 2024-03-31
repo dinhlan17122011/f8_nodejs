@@ -1,0 +1,40 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "beautiful": "prettier --single-quote --trailing-comma all --write 'src/**/*.{js,json,scss}'",
+    "start": "nodemon --inspect src/main.js",
+    "watch": "sass --watch src/resources/scss/app.scss src/public/css/app.css ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinhlan17122011/f8_hoc_nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "f8",
+    "hoctap"
+  ],
+  "author": "dinhlan1712",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinhlan17122011/nodejs/issues"
+  },
+  "homepage": "https://github.com/dinhlan17122011/nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.3",
+    "express-handlebars": "^7.1.2",
+    "husky": "^9.0.11",
+    "mongoose": "^8.2.4",
+    "morgan": "^1.10.0",
+    "prettier": "^3.2.5",
+    "sass": "^1.72.0"
+  },
+  "devDependencies": {
+    "lint-staged": "^15.2.2",
+    "nodemon": "^3.1.0"
+  }
+}
